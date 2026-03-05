@@ -62,7 +62,7 @@
           <mxGeometry height="50" width="730" x="50" y="480" as="geometry" />
         </mxCell>
         <mxCell id="kBj5IxeJ_GX1iALzEkP8-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;spacing=0;spacingLeft=7.874;fontSize=16;fontFamily=Roboto Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto%2BMono;" value="Increase the height of text box if you put a lengthy paragraph" vertex="1">
-          <mxGeometry height="50" width="360" x="50" y="540" as="geometry" />
+          <mxGeometry height="50" width="360" x="50" y="560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
