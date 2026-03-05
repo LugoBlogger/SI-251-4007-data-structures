@@ -10,7 +10,7 @@ rules.
    <img src="./figures/page-template.png"/>
 
    Write your name and the student ID number as shown in the above figure.   
-   You may include the date to the top right of your paper.
+   You must include the date to the top right of your paper.
    Make sure to draw also the margin. Please write the page number 
    at the bottom right of all the pages.
 
@@ -25,13 +25,13 @@ rules.
   `draw.io` file.  Your portfolio assessment must contain the following parts
    - your notes during a class, and
    - progress on implementing case studies
-   - (optional) any imporvement to your notes such as exploration to a 
+   - (optional) any improvement to your notes such as exploration to a 
      program in case studies and any detailed of definitions of 
      complicated terms using your own words.
 
    Check the case studies description in `case-studies` directory.
 
-   At the end of the semester, you will accumulate at least 28 pages.
+   At the end of the semester, you will accumulate at least 56 pages.
    Anyone who cannot meet this requirement are not be able to join
    the midterm and final exam.
 
