@@ -203,14 +203,8 @@
         <mxCell id="xoIjuWzEVyZ556dskUl3-46" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontFamily=Roboto Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto%2BMono;fontSize=12;fontStyle=1" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Studying other models&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="70" x="40" y="1100" as="geometry" />
         </mxCell>
-        <mxCell id="xoIjuWzEVyZ556dskUl3-47" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontFamily=Roboto Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto%2BMono;fontSize=12;fontStyle=1" value="&lt;span style=&quot;&quot;&gt;Mixing a Markov chain&lt;/span&gt;" vertex="1">
+        <mxCell id="xoIjuWzEVyZ556dskUl3-47" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontFamily=Roboto Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto%2BMono;fontSize=12;fontStyle=1" value="&lt;span style=&quot;&quot;&gt;Simulation&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="70" x="40" y="1190" as="geometry" />
-        </mxCell>
-        <mxCell id="xoIjuWzEVyZ556dskUl3-48" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontFamily=Roboto Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto%2BMono;fontSize=12;fontStyle=1" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Squaring a Markov chain&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="70" x="40" y="1220" as="geometry" />
-        </mxCell>
-        <mxCell id="xoIjuWzEVyZ556dskUl3-49" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontFamily=Roboto Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto%2BMono;fontSize=12;fontStyle=1" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;The power method&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="70" x="40" y="1260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
