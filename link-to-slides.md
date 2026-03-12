@@ -4,7 +4,7 @@ e-mail account.
 Please click the following hyperlink to access the slides
 
 * [Week 01 - Introduction](https://docs.google.com/presentation/d/1ky9FBn-7JVtGh1VwziC31reskhu8vEHUEHV_ujvcJv0/edit?usp=drive_link)
-* [Week 02 - ]
+* [Week 02 - Arrays and Case Study: Random Web Surfer](https://drive.google.com/file/d/1Fp0vAxPP6JVKKO8Ou--3SRUYlPfWpT7s/view?usp=drive_link)
 * [Week 03 - ]
 * [Week 04 - ]
 * [Week 05 - ]
