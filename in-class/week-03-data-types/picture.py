@@ -1,17 +1,26 @@
 # Logs
-# - [2026/03/14]
-#   Use imshow from plotly or matplotlib instead of pygame
+# - [2026/03/17]   
+#   Use imshow from matplotlib instead of pygame
+#   
+#   
 
+import numpy as np
 import color
+import matplotlib.pyplot as plt
 
-import plotly.express as px
+from PIL import Image
+
+plt.rcParams.update(plt.rcParamsDefault)
+plt.rcParams.update({
+  'font.size': 16, 
+  'grid.alpha': 0.25})
 
 _DEFAULT_WIDTH = 512
 _DEFAULT_HEIGHT = 512
 
 class Picture(object):
-  """A Picture object models an image. It is initialized such that
-  it has a given width and height and contains all black pizels.
+  """A Picture object moduls an image. It is initialized such that
+  it has a given width and height and contains all black pixel.
   Subsequently you can load an image from a given JPG or PNG file."""
 
   def __init__(self, arg1=None, arg2=None) :
@@ -24,28 +33,70 @@ class Picture(object):
     if (arg1 is None) and (arg2 is None):
       maxW = _DEFAULT_WIDTH
       maxH = _DEFAULT_WIDTH
+
+      img_rgb = np.zeros((maxH, maxW, 3))
+      fig, ax = plt.subplots()
+
+      self._fig = fig
+      self._ax = ax
       
-      self._surface
+      imshow_handler = ax.imshow(img_rgb)
+
+      ax.set_aspect("equal")
+      ax.tick_params(top=True, labeltop=True, bottom=False, labelbottom=False)
+      
+      self._surface = imshow_handler
+
+    elif (arg1 is not None) and (arg2 is None):
+      file_name = arg1
+      try:
+        
+        img_rgb = np.array(Image.open(file_name))
+        fig, ax = plt.subplots()
+
+        self._fig = fig
+        self._ax = ax
+
+        imshow_handler = ax.imshow(img_rgb)
+
+        ax.set_aspect("equal")
+        ax.tick_params(top=True, labeltop=True, bottom=False, labelbottom=False)
+
+        self._surface = imshow_handler
+
+      except FileNotFoundError:
+        raise IOError()
+
+    elif (arg1 is not None) and (arg2 is not None):
+      pass
+
+    else:
+      raise ValueError()
+
 
   def save(self, f):
     """Save self to the file whose name is f."""
-    px.savefig(self._surface, f)
+    self.fig.savefig(f)
 
   def width(self):
     """Return the width of self."""
-    return self._surface
+    return self._surface.get_size()[0]
 
   def height(self):
     """Return the height of self."""
-    return self._surface
+    return self._surfac.get_size()[1]
 
   def get(self, x, y):
     """Return the color of self at location (x, y)."""
-    pass
+    data_color = self._surface.get_array()[x, y].data
+    return color.Color(*data_color)
 
   def set(self, x, y, c):
     """Set the color of self at location (x, y) to c."""
-    pass
+    data_color = [c.get_red(), c.get_gree(), c.get_blue]
+    im_data = self._surface.get_array()
+    im_data[x, y, :] = data_color
+    self._surface.set_array(im_data)
 
   
 
