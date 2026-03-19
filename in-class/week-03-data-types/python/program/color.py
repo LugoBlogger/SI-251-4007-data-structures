@@ -1,6 +1,3 @@
-
-
-
 class Color(object):
   """A Color object models an RGB color."""
 
@@ -26,7 +23,7 @@ class Color(object):
   def __str__(self):
     """Return the string equivalent of self, that is, a string of the form
     '(r, g, b)'."""
-    return f"({self._r:02x}, {self._g:02x}, {self._b:02x})"
+    return f"({self._r:3d}, {self._g:3d}, {self._b:3d})"
 
 
 # Some predefined Color objects

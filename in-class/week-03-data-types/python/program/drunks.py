@@ -2,7 +2,7 @@ import sys
 import numpy as np
 import matplotlib.pyplot as plt
 
-from turtle import Turtle
+from program.turtle import Turtle
 
 n = int(sys.argv[1])
 trials = int(sys.argv[2])
