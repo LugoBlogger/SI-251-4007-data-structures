@@ -2,7 +2,7 @@ import numpy as np
 
 class Vector(object):
   def __init__(self, a):
-    self._coords = a[:]
+    self._coords = a[:]   # to avoid copy by reference
     self._n = len(a)
 
   def __add__(self, other):
