@@ -4,7 +4,7 @@ Lecturer: **Henokh Lugo Hariyanto**
 Teaching assistants: **Ahmad Daffa Alfattah (10231008)**;
 **Andini Permata Dewanti (10231014)**
 
-**Learn objectives** 
+**Learning objectives** 
 - Understand arrays in Python and JavaScript and how to implement and manipulate them effectively
 - Apply arrays to represent simple real-life objects
 - Write a program to simulate random web surfer using two-dimensional arrays
