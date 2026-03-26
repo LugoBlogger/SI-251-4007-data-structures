@@ -11,19 +11,19 @@
 
 3. Answer the questions with the following options
    - Where should we crate your project?    
-     ./animejs-tutorial
+     `./animejs-tutorial`
 
    - What should we title your app?    
-     Animejs Tutorial
+     `Animejs Tutorial`
 
    - Include sample files to help you get started?    
-     Yes, include sample files (recommended)
+     `Yes, include sample files (recommended)`
 
    - Install dependencies?    
-     Yes, via npm
+     `Yes, via npm`
     
    - Initialize git repository?    
-     Yes
+     `Yes`
    
 
 4. Now enter `animejs-tutorial`, and type
@@ -37,7 +37,7 @@
    working directory into `animjs-tutorial`
    ```
    npm install animejs
-   ``
+   ```
 
 7. For the later work, you only need to create a new markdown file inside 
    `animejs-tutorial/src`. No need to create a new npm project.
