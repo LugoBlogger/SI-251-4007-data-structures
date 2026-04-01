@@ -127,7 +127,7 @@ extensions follow the same procedure to install them.
    you are in the "base" environment.
 
    ```text
-   pip install ipykernel numpy==1.26.4 matplotlib pandas
+   pip install ipykernel numpy==1.26.4 matplotlib pandas scipy networkx
    ```
 
 

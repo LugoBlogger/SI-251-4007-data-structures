@@ -6,7 +6,7 @@
 
 2. To create a new app with npm, run
    ```
-   npx @observablehq/framework@laterst create
+   npx @observablehq/framework@latest create
    ```
 
 3. Answer the questions with the following options

@@ -1,10 +1,10 @@
 import sys
 
-def search(low, high):
+def search(low, high, counter):
   if (high - low) == 1:
     return low
   mid = (high + low) // 2
-  stat = input(f"Greater than or equal to {mid}? ")
+  stat = input(f"({counter:03d}) Greater than or equal to {mid}? ")
   if stat.lower() == "true":
     stat = True
   elif stat.lower() == "false":
@@ -13,16 +13,16 @@ def search(low, high):
     return print(f"Your input is wrong!")
 
   if stat:
-    return search(mid, high)
+    return search(mid, high, counter+1)
   else:
-    return search(low, mid)
+    return search(low, mid, counter+1)
 
 
 def _main():
   k = int(sys.argv[1])
   n = 2 ** k
   print(f"Think of a number between 0 and {n-1}")
-  guess = search(0, n)
+  guess = search(0, n, 1)
   print(f"Your number is {guess}")
 
 
