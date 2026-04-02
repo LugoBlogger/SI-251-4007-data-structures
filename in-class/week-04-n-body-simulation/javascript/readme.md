@@ -10,7 +10,7 @@
    ```
 
 3. Answer the questions with the following options
-   - Where should we crate your project?    
+   - Where should we create your project?    
      `./animejs-tutorial`
 
    - What should we title your app?    

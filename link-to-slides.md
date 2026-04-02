@@ -10,10 +10,10 @@ Please click the following hyperlink to access the slides
 &larr; slides; [link to [video](https://drive.google.com/file/d/1Fp0vAxPP6JVKKO8Ou--3SRUYlPfWpT7s/view?usp=drive_link)]
 * [Week 03 - Using, creating, and designing data types](https://docs.google.com/presentation/d/19OeqHOtjpdkI8UVR19yo2dmACK2ys4FMaojrzctoXkc/edit?usp=drive_link) 
 &larr; slides; [link to [video](https://drive.google.com/file/d/1ddh0VDs8gbr9WFEtu_duW38R78rUWCz-/view?usp=drive_link)]
-* [Week 04 - Case Study: $N$-body simulation]()
-&larr; slides; [link to [video]()]
-* [Week 05 - ]
-* [Week 06 - ]
+* [Week 04 - Case Study: $N$-body simulation](https://docs.google.com/presentation/d/1X0yIvnRoP-ehYfyGsJQ1pLwAyQrjg58FKoWw5bNs1iA/edit?usp=drive_link)
+&larr; slides; [link to [video](https://drive.google.com/file/d/1_5JX_FYg8ZW-Y1_w0-rSad-JksaWTeGb/view?usp=drive_link)]
+* [Week 05 - Sorting and searching algorithms]()
+* [Week 06 - Program's performance]()
 * [Week 07 - ]
 * [Week 09 - ]
 * [Week 10 - ]
