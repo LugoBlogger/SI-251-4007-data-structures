@@ -1,4 +1,5 @@
 import sys
+import program.merge as merge
 
 from program.counter import Counter
 # from counter import Counter         # If we run it from terminal
@@ -10,7 +11,8 @@ def _main():
     data = fp.readlines() 
   
   words = " ".join(data).split()
-  words.sort()
+  # words.sort()      // using Python system sort
+  merge.sort(words)
   # print(words)
   zipf = []
   for i in range(len(words)):

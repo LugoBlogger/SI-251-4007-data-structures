@@ -12,14 +12,12 @@ Please click the following hyperlink to access the slides
 &larr; slides; [link to [video](https://drive.google.com/file/d/1ddh0VDs8gbr9WFEtu_duW38R78rUWCz-/view?usp=drive_link)]
 * [Week 04 - Case Study: $N$-body simulation](https://docs.google.com/presentation/d/1X0yIvnRoP-ehYfyGsJQ1pLwAyQrjg58FKoWw5bNs1iA/edit?usp=drive_link)
 &larr; slides; [link to [video](https://drive.google.com/file/d/1_5JX_FYg8ZW-Y1_w0-rSad-JksaWTeGb/view?usp=drive_link)]
-* [Week 05 - Sorting and searching algorithms]()
-* [Week 06 - Program's performance]()
-* [Week 07 - ]
-* [Week 09 - ]
-* [Week 10 - ]
-* [Week 11 - ]
-* [Week 12 - ]
-* [Week 13 - ]
-* [Week 14 - ]
-* [Week 15 - ]
+* [Week 05-06 - Sorting and searching algorithms](https://docs.google.com/presentation/d/1zCDH7s2VodFKS0rkDN_lT3S1CIzpbKDILXrs9JuKVSQ/edit?usp=sharing)
+&larr; slides; [link to [video](https://drive.google.com/file/d/10XY8bijaAzk-29_9i5cE9Tq8s_x2gwEg/view?usp=drive_link)]
+* [Week 07 - Program's performance]()
+* [Week 09 - Case Study: percolation]()
+* [Week 10-11 - Stacks and queues ]()
+* [Week 12-13 - Symbol tables]()
+* [Week 14 - Probabilistic data structure - Bloom filter]()
+* [Week 15 - Exotic data structures]()
 

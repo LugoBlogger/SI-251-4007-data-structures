@@ -72,7 +72,7 @@ def _main():
 
   sort(data)
 
-  # print(" ".join(data))
+  print(" ".join(data))
 
 
 if __name__ == "__main__": _main()
