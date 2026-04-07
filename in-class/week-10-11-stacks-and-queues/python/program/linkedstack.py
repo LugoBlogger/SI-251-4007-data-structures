@@ -1,4 +1,4 @@
-
+import sys
 
 class Stack(object):
   def __init__(self):
@@ -34,7 +34,7 @@ def _main():
     if item != "-":
       stack.push(item)
     else:
-      print(f"{stack.pop} ", end="")
+      print(f"{stack.pop()} ", end="")
   print()
 
 if __name__ == "__main__": _main()
