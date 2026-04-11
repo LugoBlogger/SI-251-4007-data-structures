@@ -19,5 +19,6 @@ Please click the following hyperlink to access the slides
 * [Week 10-11 - Stacks and queues ]()
 * [Week 12-13 - Symbol tables]()
 * [Week 14 - Probabilistic data structure - Bloom filter]()
-* [Week 15 - Exotic data structures]()
+* [Week 15 - Case Study: Small-World Phenomeon ]()
+* [Week 16 - Exotic data structures]()
 
