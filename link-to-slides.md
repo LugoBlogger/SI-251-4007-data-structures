@@ -15,10 +15,9 @@ Please click the following hyperlink to access the slides
 * [Week 05-06 - Sorting and searching algorithms](https://docs.google.com/presentation/d/1zCDH7s2VodFKS0rkDN_lT3S1CIzpbKDILXrs9JuKVSQ/edit?usp=sharing)
 &larr; slides; [link to [video](https://drive.google.com/file/d/10XY8bijaAzk-29_9i5cE9Tq8s_x2gwEg/view?usp=drive_link)]
 * [Week 07,09- Program's performance](https://docs.google.com/presentation/d/1kp19qWt5YxLxTu97tZNVukyi4V8OjJV3Nx9RulH5t1Q/view?usp=drive_link)
+&larr; slides; [lin to [video](https://drive.google.com/file/d/1BBGJa0YY6dnEYy1F6pWzpT7hBC0bwTII/view?usp=drive_link)]
 * [Week 10-11 - Case Study: percolation](https://docs.google.com/presentation/d/167pkMWRo8edvhEkZhQVKWq14fDx-TRwOHgByKGY5874/view?usp=drive_link)
-* [Week 12-13 - Stacks and queues ]()
-* [Week 12-13 - Symbol tables]()
-* [Week 14 - Probabilistic data structure - Bloom filter]()
-* [Week 15 - Case Study: Small-World Phenomeon ]()
+* [Week 12-13 - Stacks and queues ](https://docs.google.com/presentation/d/1BsB6Zqn_i96nqlwjNFnN8fiwjoiIrJ5VD76AMjt_mWM/edit?usp=sharing)
+* [Week 14-15 - Case Study: Small-World Phenomeon ]()
 * [Week 16 - Exotic data structures]()
 
