@@ -19,5 +19,5 @@ Please click the following hyperlink to access the slides
 * [Week 10-11 - Case Study: percolation](https://docs.google.com/presentation/d/167pkMWRo8edvhEkZhQVKWq14fDx-TRwOHgByKGY5874/view?usp=drive_link)
 * [Week 12-13 - Stacks and queues ](https://docs.google.com/presentation/d/1BsB6Zqn_i96nqlwjNFnN8fiwjoiIrJ5VD76AMjt_mWM/edit?usp=sharing)
 * [Week 14-15 - Case Study: Small-World Phenomeon ]()
-* [Week 16 - Exotic data structures]()
+* [~~Week 16 - Exotic data structures~~]()
 

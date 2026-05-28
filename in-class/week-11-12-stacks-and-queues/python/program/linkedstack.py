@@ -7,6 +7,14 @@ class Stack(object):
   def is_empty(self):
     return self._first is None
 
+  def __len__(self):
+    n = 0
+    ref = self._first
+    while ref != None:
+      n += 1
+      ref = ref.next
+    return n 
+  
   def push(self, item):
     self._first = _Node(item, self._first)
 
@@ -14,6 +22,21 @@ class Stack(object):
     item = self._first.item
     self._first = self._first.next
     return item
+
+  def __str__(self):
+    _first = self._first
+    item = _first.item
+    ref = _first.next
+    arr_out = []
+    while True:
+      arr_out.append(item)
+      if ref != None:
+        _first = _first.next
+        item = _first.item
+        ref = _first.next
+      else:
+        break
+    return f"{arr_out}"
 
 
 class _Node(object):
