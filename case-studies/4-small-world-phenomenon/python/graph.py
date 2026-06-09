@@ -10,11 +10,18 @@ class Graph(object):
 
       for line in lines:
         names = line.split(delimiter)
+        names = [name.strip() for name in names]
         for i in range(1, len(names)):
           self.add_edge(names[0], names[i])
 
-  def __str__():
-    pass
+  def __str__(self):
+    s = ""
+    for v in self.vertices():
+      s += v + ": "
+      for w in self.adjacent_to(v):
+        s += w + " "
+      s += "\n"
+    return s
 
   def add_edge(self, v, w):
     if not self.has_vertex(v):
@@ -30,26 +37,25 @@ class Graph(object):
     
 
   def count_v(self):
-    pass
+    return len(self._adj)
 
   def count_e(self):
-    pass
+    return self._e
 
   def degree(self, v):
-    pass
+    return len(self._adj[v])
 
   def has_vertex(self, v):
-    pass
+    return v in self._adj
 
   def has_edge(self, v, w):
-    pass
-
+    return w in self._adj[v]
 
   def vertices(self):
-    pass
+    return iter(self._adj)
 
   def adjacent_to(self, v):
-    pass
+    return iter(self._adj[v])
 
 
 def _main():
