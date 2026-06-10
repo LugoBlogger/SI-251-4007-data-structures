@@ -14,7 +14,7 @@ class PathFinder(object):
     self._edge_to[s] = None
     while not queue.is_empty():
       v = queue.dequeue()
-      print(f"v: {v}")
+      # print(f"v: {v}")
       for w in graph.adjacent_to(v):
         if w not in self._dist_to:
           queue.enqueue(w)
